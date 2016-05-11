@@ -1,0 +1,109 @@
+/* Empty. Add your own CSS if you like */
+
+.colorBar{
+    background-color: rgba(186, 37, 49, 0.94);
+    
+}
+
+.space{
+    padding-right: 50px;
+    line-height: 20px;
+}
+
+.-space{
+    
+    padding-left: 50px;
+    line-height: 20px;
+}
+
+#fz{
+    font-size: 60px;
+    
+
+}
+
+.cen {
+    text-align: center;
+}
+.sp{
+    font-size: 40px;
+    line-height: 110px;
+    
+}
+
+.list i {
+    font-size: 20px;
+}
+
+#welcome{
+    
+    line-height: 80px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #d6c4c4
+}
+#bg {
+    background-color: #403737;
+    
+}
+/*
+#bg {
+    background: url(http://i.imgur.com/hgzVvzN.jpg);
+    background-attachment:fixed;
+    background-position: center;
+}
+
+ .list, .item       {
+    background: transparent;
+}
+*/
+
+
+
+  .ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+
+
+.s{
+    background-color: #6e1fa0;
+}
+.s p{
+    color:#ebe2e2;
+    font-size: 17px;
+    line-height: 20px;
+     text-align: center;
+}
+.style ion-item{
+    line-height: 20px;
+    
+}
+
+.style #up{
+    
+    margin-top: 20px;
+}
+.style ion-item p {
+    font-size: 15px;
+    font-weight: 400;
+}

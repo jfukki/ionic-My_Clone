@@ -1,0 +1,123 @@
+<ion-view view-title="Submit Ad">
+    <ion-content ng-controller='myctrl'>
+
+
+          <div class="card">
+  <div class="item item-text-wrap cen">
+    <button class="button button-icon ion-camera space" ng-click="upload()" id="fz"></button>
+   <span class="sp">|</span><i class="ion-camera -space" id="fz"></i>
+    <!--
+     <i class="ion-camera space" id="fz" ng-click="upload()"></i>
+      <button class="button button-icon ion-camera space" ng-click="upload()" id="fz"></button> <span class="sp">|</span> <button class="button button-icon ion-camera-space" ng-click="gallery()" id="fz"> -->
+    <p>Capture Or Pick Picture From Gallery</p>
+      </div>
+</div>
+
+
+
+
+    <div class="card">
+      <div class="item item-text-wrap">
+      <form action="">
+
+          <label for="" class="item item-input">
+              <input type="text" placeholder="Title" ng-model="name">
+          </label>
+
+          <div class="card">
+              <div class="item item-text-wrap">
+                 <label class="item item-input item-select">
+                <div class="input-label">
+                  Category
+                </div>
+                <select ng-model="cat">
+
+                  <option value="cars" >Cars</option>
+                  <option vlaue="bike" >Bikes</option>
+                  <option value="mobile" >Mobiles</option>
+                </select>
+              </label>
+
+              </div>
+            </div>
+
+          <label for="" class="item item-input" id="up">
+
+              <textarea name="" id="" ng-model="des" rows="6" cols="60" placeholder="Description"></textarea>
+          </label>
+
+          <label for="" class="item item-input">
+              <input type="text" placeholder="Name" ng-model="user_name">
+          </label>
+
+
+          <label for="" class="item item-input">
+              <input type="email" placeholder="Email" ng-model="email">
+          </label>
+
+          <label for="">
+
+               <div class="card">
+              <div class="item item-text-wrap">
+                 <label class="item item-input item-select">
+                <div class="input-label">
+                  City
+                </div>
+                <select ng-model="city">
+
+                  <option value="cars" >Lahore</option>
+                  <option vlaue="bike" >Gujranwala</option>
+                  <option value="mobile" >Karachi</option>
+                </select>
+              </label>
+
+              </div>
+            </div>
+
+
+
+          </label>
+
+
+
+          <label for="">
+
+               <div class="card">
+              <div class="item item-text-wrap">
+                 <label class="item item-input item-select">
+                <div class="input-label">
+                  Location
+                </div>
+                <select ng-model="location">
+
+                  <option value="cannt" >Cantt</option>
+                  <option vlaue="walton" >Walton</option>
+                  <option value="dha" >DHA</option>
+                </select>
+              </label>
+
+              </div>
+            </div>
+
+
+          <label for="" class="item item-input">
+              <input type="text" placeholder="Phone Number" ng-model="ph_no">
+          </label>
+
+
+          <label for="" class="item item-input">
+              <input type="text" placeholder="Price" ng-model="product_price">
+          </label>
+
+
+          </label>
+
+
+      </form>
+      </div>
+    </div>
+
+   <button class="button button-block button-assertive" ng-click="post(name,des,cat,user_name,email,city,location,ph_no,product_price)">Submit</button>
+
+    </ion-content>
+</ion-view>

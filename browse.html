@@ -1,0 +1,26 @@
+<ion-view view-title="Browse Ads">
+  <ion-content ng-controller='myctrl'>
+    <div class="row" >
+     <div class="row responsive-sm">
+      <div class="col">
+  
+       <div class="list card" ng-repeat="product in products">
+        <h3>Category: {{product.product_category |filter:upercase}}</h3>
+      <a class="item item-icon-left assertive" href="#">
+       <p>{{product.product_name}}</p>
+        <i class="ion-social-usd-outline" style="color:green"></i>
+       {{product.product_description}}
+      <p> price:{{product.product_price}}</p>
+      </a>
+
+    </div>
+  
+      </div>
+    </div> 
+  
+  
+  
+  
+    </div>
+</ion-content>
+</ion-view>
